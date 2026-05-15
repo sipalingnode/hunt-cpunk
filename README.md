@@ -17,3 +17,27 @@
 - Mint Price: 0.001111 ETH L1
 - Link Mint: https://unixpunks.xyz/#hunt
 - Market: https://opensea.io/collection/cpunks-654212589
+## Install Node.js
+```
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt install -y nodejs
+```
+## Clone Repository
+```
+git clone https://github.com/sipalingnode/hunt-cpunk.git
+cd hunt-cpunk
+```
+## Install Depency
+```
+npm init -y
+npm install axios
+```
+## Submit address evm
+```
+nano data.txt
+```
+**Save gunakan `CTRL+X+Y lalu Enter`**
+## Try Hunting
+```
+node bot.js
+```
